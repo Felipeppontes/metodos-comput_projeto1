@@ -1,6 +1,7 @@
-Pseudocódigo - Utilizando o Portugol:
+#Pseudocódigo - Utilizando o Portugol:
 
 #-----Problema 1-----#:
+
 função num_algarismo(algarismo)
     // Um numero inteiro positivo entre 100 e 999
     se algarismo < 100 ou algarismo > 999 então
@@ -25,6 +26,7 @@ Escreva("Centena:", centenas)
 Escreva("")
 
 #-----Problema 2-----#:
+
 função laranjas(quant)
     // Quantidade de laranjas desejadas ao usuário
     duzias <- quant // 12
@@ -49,6 +51,7 @@ Escreva("Quantidade avulsas:", avulsas)
 Escreva("Valor total (R$):", arredondar(valor_total, 2))
 
 #-----Problema 3-----#:
+
 função calcular_numeros_perfeitos(inicio, fim)
     numeros_perfeitos <- []
     
@@ -86,10 +89,11 @@ se tamanho(numeros_perfeitos) > 0 então
 senão
     Escreva("Nenhum número perfeito encontrado no intervalo.")
 fim se
-
 Escreva("")
 
+
 #-----Problema 4-----#:
+
 função calcular_media(valores)
     soma <- somar(valores)
     media <- soma / tamanho(valores)
@@ -98,7 +102,6 @@ fim função
 
 valores <- []
 valor <- 0
-
 enquanto valor >= 0 faça
     valor <- LeiaReal("Digite um valor (digite um número negativo para sair): ")
     se valor >= 0 então
